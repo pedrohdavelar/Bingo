@@ -60,7 +60,7 @@ bool numero_sorteado_valido = false;
 int main() {
 	// Declara vetor de jogadores e variável para armazenar a quantidade de jogadores
 	vector<jogador_bingo> jogadores;
-	int num_jogadores;
+	int num_jogadores = 0;
 
 	// Abertura do jogo
 	cout << "\n>> ---------------------------------------------- <<\n";
@@ -69,8 +69,13 @@ int main() {
 	cout << "Para comecar, precisamos que cada jogador informe seus dados e preencha sua cartela." << endl;
 
 	// Solicita o número de jogadores
-	cout << "\nDigite o numero de jogadores: ";
-	cin >> num_jogadores;
+	while (num_jogadores < 1){
+		cout << "\nDigite o numero de jogadores: ";
+		cin >> num_jogadores;
+		if (num_jogadores < 1){
+			cout << "Digite um numero valido! O numero de jogadores precisa ser maior ou igual a 1.";
+		}
+	}
 
 	// Redimensiona o vetor de jogadores com base no número fornecido
 	jogadores.resize(num_jogadores);
