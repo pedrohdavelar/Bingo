@@ -1,29 +1,43 @@
-# Bingo
- Trabalho Final de Computação para Engenharia
+# Trabalho Final de Computação para Engenharia: Bingo 
 
-O programa Bingo.exe replica o famoso jogo de sorteio Bingo.
+## Descrição
 
-O menu do programa apresenta 3 opções: Novo jogo, Lista de Vencedores e Sair.
+O programa "Bingo.exe" oferece uma experiência digital do clássico jogo de sorteio Bingo. Desenvolvido como trabalho final da disciplina de Computação para Engenharia, este software proporciona uma interface intuitiva e funcionalidades que replicam a dinâmica do jogo tradicional.
 
-A opção Novo Jogo inicia o jogo.
-Inicialmente, o usuário precisa informar o número de participantes.
+## Funcionalidades
 
-Em seguida, deve ser informado o nome de cada participante e o modo de 
-preenchimento de sua cartela - automático ou manual.
+### Menu Principal
 
-Apos o preenchimento de cada cartela, é exibida a cartelha preenchida, 
-de modo que possa ser copiada ou gerada um print de cada cartela.
+O programa apresenta três opções principais:
 
-Inicia-se então o sorteio das pedras. Após o sorteio de cada pedra, o 
-programa irá verificar, cartela por cartela, se houve alguma linha ou 
-coluna preenchida.
-Caso sim, o programa irá então declarar o vencedor e salvar seu nome e sua 
-quantidade de pontos no arquivo vencedores.txt. A quantidade de pontos é
-a quantidade de pedras sorteadas que foram necessárias para o jogador conseguir
-o Bingo.
+1. Novo Jogo
+2. Lista de Vencedores
+3. Sair
 
-A opção Lista de Vencedores faz a leitura do arquivo vencedores.txt, seguida da 
-ordenação dos vencedores em ordem crescente de pontos e, por fim, a impressão formatada
-da lista dos vencedores.
+### Novo Jogo
 
-A opção Sair encerra o programa.
+Ao iniciar um novo jogo, o usuário deve:
+
+1. Informar o número de participantes.
+2. Para cada participante:
+   - Fornecer o nome.
+   - Escolher o modo de preenchimento da cartela (automático ou manual).
+3. Após o preenchimento, cada cartela é exibida para registro (cópia ou captura de tela).
+
+O sorteio das pedras começa em seguida. O programa verifica automaticamente, após cada sorteio, se algum jogador completou uma linha ou coluna, caracterizando o Bingo. Ao identificar um vencedor, o programa:
+
+- Declara o vencedor.
+- Salva o nome do vencedor e sua pontuação (número de pedras sorteadas até o Bingo) no arquivo "vencedores.txt".
+
+### Lista de Vencedores
+
+Esta opção:
+
+1. Lê o arquivo "vencedores.txt".
+2. Ordena os vencedores por pontuação (ordem crescente).
+3. Exibe uma lista formatada dos vencedores.
+
+### Sair
+
+Encerra a execução do programa.
+
