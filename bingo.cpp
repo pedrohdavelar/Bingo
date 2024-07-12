@@ -3,7 +3,7 @@ Trabalho de Computação para Engenharia
 Projeto Escolhido - Bingo
 Autores: 
 1. Arthur Augusto Frasson Ramos
-2. Mateus
+2. Mateus Sakai Aratani
 3. Pedro Henrique Dias Avelar
 4. Vinicius Magao de Oliveira
 
